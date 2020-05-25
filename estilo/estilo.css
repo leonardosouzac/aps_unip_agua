@@ -4,7 +4,7 @@ html,body{
 	padding: 0;
 	line-height: 50px;
 	font-size: 15px;
-	background: #ccc url("../imagens/background2.png");
+    background: #ccc url("../imagens/background2.png");
 }
 #header, #middle_box, #shooter {
 	position: relative;
@@ -12,6 +12,7 @@ html,body{
 	width: 90%;
     color: #fff;
 }
+
 
 div {
     display: block;
@@ -100,6 +101,9 @@ ul{
     display: flex;
     margin: 100px auto;
 }
+ul li{
+    margin-top: 60px;
+}
 .min{
     width: 200px;
     padding: 10px;
@@ -113,8 +117,6 @@ ul{
     left: 0;
     background: rgba(25, 25, 26, 0.616);
     position: fixed;
-
-
 }
 .box_img{
     width: 1000px;
@@ -159,4 +161,15 @@ ul{
     padding: 0px;
     height: 1100px;
     margin-top: -100px;
+}
+.strayed{
+    margin-left: 210px;
+    margin-top: -10px;
+}
+
+.imgstr{
+    overflow: hidden; 
+    width: 40%;
+    float: Left;
+    padding: 15px;
 }
