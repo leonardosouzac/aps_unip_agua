@@ -13,10 +13,11 @@ html,body{
     color: #fff;
 }
 
-
-div {
-    display: block;
+#justify{
+    margin-left: 120px;
+    color: #2a7ead;
 }
+
 
 #middle_box{
     padding: 25px 0;
@@ -30,7 +31,7 @@ div {
 
 
 
-#middle_box a {
+#middle_box {
     color: #2a7ead;
     line-height: 20px;
 }
@@ -172,4 +173,12 @@ ul li{
     width: 40%;
     float: Left;
     padding: 15px;
+}
+
+p{
+    text-align: justify;
+}
+
+h1,h2,h3,h4{
+    text-align: center;
 }
